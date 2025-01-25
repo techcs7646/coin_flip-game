@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coin Flip</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <img id="coin" src="tail.png" alt="Coin" />
+      </div>
+    
+      
+      <div class="settings">
+        ⚙️
+        <div class="color-options" id="colorOptions">
+          <button class="color-btn" data-color="white">White</button>
+          <button class="color-btn" data-color="lightblue">Light Blue</button>
+          <button class="color-btn" data-color="lightgreen">Light Green</button>
+          <button class="color-btn" data-color="lightpink">Light Pink</button>
+        </div>
+      </div>
+    
+      
+      <div class="results">
+        <p>Heads: <span id="headsCount">0</span></p>
+        <p>Tails: <span id="tailsCount">0</span></p>
+        <button id="flipButton">Flip Coin</button>
+      </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
